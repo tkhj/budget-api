@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost:3306',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'ci',
+	'hostname' => 'internal-db.s220124.gridserver.com',
+	'username' => 'db220124',
+	'password' => 'Q+Hy7YfLbw=b6SQn',
+	'database' => 'db220124_ourincome',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

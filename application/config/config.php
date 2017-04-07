@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // CHANGE THIS TO A REAL SERVER
-$config['base_url'] = 'http://127.0.0.1/personal/dndspells2-api/';
+$config['base_url'] = 'ourinco.me.s220124.gridserver.com/';
 
 /*
 |--------------------------------------------------------------------------
@@ -392,7 +392,7 @@ $config['sess_regenerate_destroy'] = FALSE;
 |
 */
 $config['cookie_prefix']	= '';
-$config['cookie_domain']	= 'localhost';
+$config['cookie_domain']	= 'ourinco.me.s220124.gridserver.com';
 $config['cookie_path']		= '/';
 $config['cookie_secure']	= FALSE;
 $config['cookie_httponly'] 	= FALSE;

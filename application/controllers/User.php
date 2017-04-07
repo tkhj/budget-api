@@ -1,13 +1,5 @@
 <?php
 
-	//
-    // Cross site headers - allow access to API from a different domain
-    //
-    header("Access-Control-Allow-Credentials: true");
-    header('Access-Control-Allow-Origin: http://localhost:8080');
-    header("Access-Control-Allow-Headers: Origin, X-CSRF-Token, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method, Authorization");
-    header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
-
     if ( "OPTIONS" === $_SERVER['REQUEST_METHOD'] ) {
         die();
     }
