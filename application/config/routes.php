@@ -56,11 +56,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // User API
 //
 ////////////////////////////////////////////////////////////////////////////////
-$route['api/user/signup'] = 'user/signup';              // User signup
-$route['api/user/login'] =  'user/login';               // User login
-$route['api/user/logout'] = 'user/logout';              // User logout
-$route['api/user/currentUser'] = 'user/currentUser';    // Check if a user is logged in or not
+$route['api/user/signup'] =         'user/signup';          // User signup
+$route['api/user/login'] =          'user/login';           // User login
+$route['api/user/logout'] =         'user/logout';          // User logout
+$route['api/user/currentUser'] =    'user/currentUser';     // Check if a user is logged in or not
 
+
+////////////////////////////////////////////////////////////////////////////////
+//
+// User API
+//
+////////////////////////////////////////////////////////////////////////////////
+$route['api/account/checkName'] =   'account/checkName';    // Check account name for duplicates
+$route['api/account/create'] =      'account/create';       // Check account name for duplicates
 
 
 // Default Routes
