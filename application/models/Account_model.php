@@ -71,4 +71,21 @@ class Account_model extends CI_Model {
         return $this->db->insert('accounts', $data);
     }
 
+
+    ////////////////////////////////////////////////////////////////////////////////
+    //
+    // Create Transaction
+    //
+    ////////////////////////////////////////////////////////////////////////////////
+    public function transaction_create($user_id, $transaction_name, $transaction_amount, $transaction_date)
+    {
+        $data = array (
+            'trans_name'    => $transaction_name,
+            'trans_amount'  => $transaction_amount,
+            'owner_id'      => $user_id,
+            'trans_date'    => $transaction_date,
+        );
+        return $this->db->insert('transactions', $data);
+    }
+
 }

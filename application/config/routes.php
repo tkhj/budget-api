@@ -64,11 +64,12 @@ $route['api/user/currentUser'] =    'user/currentUser';     // Check if a user i
 
 ////////////////////////////////////////////////////////////////////////////////
 //
-// User API
+// Account API
 //
 ////////////////////////////////////////////////////////////////////////////////
-$route['api/account/checkName'] =   'account/checkName';    // Check account name for duplicates
-$route['api/account/create'] =      'account/create';       // Check account name for duplicates
+$route['api/account/checkName'] =           'account/checkName';            // Check account name for duplicates
+$route['api/account/create'] =              'account/create';               // Create a new account
+$route['api/account/createTransaction'] =   'account/createTransaction';    // Create an account transaction
 
 
 // Default Routes
